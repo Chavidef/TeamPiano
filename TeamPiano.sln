@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamPiano.Web", "TeamPiano.Web\TeamPiano.Web.csproj", "{2241FFA5-316E-4CF2-A90F-BA00610C66AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamPiano.Data", "TeamPiano.Data\TeamPiano.Data.csproj", "{654103B4-E33C-4256-8C98-1FB96ABD743A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2241FFA5-316E-4CF2-A90F-BA00610C66AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2241FFA5-316E-4CF2-A90F-BA00610C66AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2241FFA5-316E-4CF2-A90F-BA00610C66AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2241FFA5-316E-4CF2-A90F-BA00610C66AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654103B4-E33C-4256-8C98-1FB96ABD743A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654103B4-E33C-4256-8C98-1FB96ABD743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654103B4-E33C-4256-8C98-1FB96ABD743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654103B4-E33C-4256-8C98-1FB96ABD743A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F838B0A-8DA2-4C94-96A4-ED1519ABEB11}
+	EndGlobalSection
+EndGlobal

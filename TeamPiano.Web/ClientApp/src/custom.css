@@ -1,0 +1,66 @@
+
+h1{
+    color:aqua;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+   
+
+    .topnav a {
+        float: right;
+        color: white;
+        text-align: right;
+        padding: 14px 70px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: Impact;
+    }
+
+@media screen and (max-width: 1030px) {
+    .topnav a {
+       padding: 14px 15px;
+    }
+}
+
+
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: hotpink;
+            color: black;
+            border-bottom: 3px solid hotpink;
+        }
+
+.topnav a.button {
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+    height: 10px;
+    margin: 5px 20px;
+    text-align: center;
+    padding: 14px 20px !important;
+    /*for glow effect:*/
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 20px 6px aquamarine;
+}
+
+    .topnav a.button:hover {
+        background-color: hotpink;
+        box-shadow: 1px 1px 20px 6px hotpink;
+    }
+
+        .topnav a.active {
+            border-bottom: 3px solid hotpink;
+            color: hotpink;
+        }
+
+            .topnav a.active:hover {
+                color: black;
+            }
